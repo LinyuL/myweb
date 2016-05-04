@@ -245,12 +245,15 @@ h3.tal{
 .aktionen-grids{
 	margin:3em 0;
 	}
-.aktionen-grid {
+.aktionen-grid{
 	float:left;
 	width:33.33%;
+	height:480px;
+	overflow: hidden;
 	text-align:center;
 	}
-.aktionen-grid  img{
+.aktionen-grid img{
+	width:100%;
 	border:1px solid #F3AF85;
 	padding:8px;
 	}
